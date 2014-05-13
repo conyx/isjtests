@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="program">
+<question>
+Napište funkci myfilter(array) v jazyce Ruby tak, aby ze vstupního seznamu čísel vytiskla na standardní výstup pouze lichá čísla a čísla dělitelná 10.
+</question>
+<language>ruby</language>
+<program type="edit"/>
+<program>
+myfilter([1, 8, 314, 5, 10, 30, 5, 2, 256, 133])
+</program>
+<output>
+1
+5
+10
+30
+5
+133
+</output>
+<prefill>
+def myfilter(array)
+    
+end
+</prefill>
+</task>

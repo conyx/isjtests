@@ -1,0 +1,11 @@
+
+def fakt(num):
+
+
+
+print(fakt(3), end="")
+print(fakt(5), end="")
+print(fakt(4), end="")
+print(fakt(8), end="")
+print(fakt(9), end="")
+

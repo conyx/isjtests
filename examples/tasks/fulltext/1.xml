@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="fulltext">
+<question>
+Napište vše co víte o iterátorech v Pythonu.
+</question>
+<answer percent="100">
+Iterátory jsou super.
+</answer>
+<answer percent="70">
+Iterátory jsou jen trochu super.
+</answer>
+</task>

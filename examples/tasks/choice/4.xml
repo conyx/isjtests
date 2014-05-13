@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="choice">
+<question>
+Který z následujících jazyků nemá vestavěnou podporu pro regulární výrazy?
+</question>
+<answer type="true">
+C
+</answer>
+<answer type="false">
+Ruby
+</answer>
+<answer type="false">
+Python 2
+</answer>
+<answer type="false">
+Python 3
+</answer>
+</task>

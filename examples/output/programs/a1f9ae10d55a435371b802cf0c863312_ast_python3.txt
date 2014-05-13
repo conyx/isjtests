@@ -1,0 +1,123 @@
+###############################################################################
+GROUP 1
+===============================================================================
+SYNTAX ERROR
+===============================================================================
+[]
+###############################################################################
+GROUP 2
+===============================================================================
+<class '_ast.Module'> children: 1
+<class '_ast.Import'> children: 1
+<class '_ast.alias'> children: 2
+<class '_ast.Assign'> children: 2
+<class '_ast.Name'> children: 2
+<class '_ast.Store'> children: 0
+<class '_ast.Str'> children: 1
+<class '_ast.Assign'> children: 2
+<class '_ast.Name'> children: 2
+<class '_ast.Store'> children: 0
+<class '_ast.UnaryOp'> children: 2
+<class '_ast.USub'> children: 0
+<class '_ast.Num'> children: 1
+<class '_ast.Assign'> children: 2
+<class '_ast.Name'> children: 2
+<class '_ast.Store'> children: 0
+<class '_ast.Num'> children: 1
+<class '_ast.For'> children: 4
+<class '_ast.Name'> children: 2
+<class '_ast.Store'> children: 0
+<class '_ast.Call'> children: 5
+<class '_ast.Attribute'> children: 3
+<class '_ast.Attribute'> children: 3
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Load'> children: 0
+<class '_ast.Load'> children: 0
+<class '_ast.Assign'> children: 2
+<class '_ast.Name'> children: 2
+<class '_ast.Store'> children: 0
+<class '_ast.Call'> children: 5
+<class '_ast.Attribute'> children: 3
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Load'> children: 0
+<class '_ast.Str'> children: 1
+<class '_ast.If'> children: 3
+<class '_ast.Compare'> children: 3
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Eq'> children: 0
+<class '_ast.Num'> children: 1
+<class '_ast.Assign'> children: 2
+<class '_ast.Name'> children: 2
+<class '_ast.Store'> children: 0
+<class '_ast.Subscript'> children: 3
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Index'> children: 1
+<class '_ast.Num'> children: 1
+<class '_ast.Load'> children: 0
+<class '_ast.Assign'> children: 2
+<class '_ast.Name'> children: 2
+<class '_ast.Store'> children: 0
+<class '_ast.Subscript'> children: 3
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Index'> children: 1
+<class '_ast.Num'> children: 1
+<class '_ast.Load'> children: 0
+<class '_ast.Assign'> children: 2
+<class '_ast.Name'> children: 2
+<class '_ast.Store'> children: 0
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.AugAssign'> children: 3
+<class '_ast.Name'> children: 2
+<class '_ast.Store'> children: 0
+<class '_ast.Add'> children: 0
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.If'> children: 3
+<class '_ast.Compare'> children: 3
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Gt'> children: 0
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Assign'> children: 2
+<class '_ast.Name'> children: 2
+<class '_ast.Store'> children: 0
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Assign'> children: 2
+<class '_ast.Name'> children: 2
+<class '_ast.Store'> children: 0
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Expr'> children: 1
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Expr'> children: 1
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+===============================================================================
+['xbamba01', 'xjanda17']
+###############################################################################
+GROUP 3
+===============================================================================
+<class '_ast.Module'> children: 1
+===============================================================================
+['xhegrt00']

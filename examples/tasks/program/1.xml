@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="program">
+<question>
+Doplňte tělo funkce fakt(num) v Pythonu 3, taky aby vracela faktoriál celého čísla.
+</question>
+<language>python3</language>
+<program>
+def fakt(num):
+</program>
+<program type="edit" indent="1"/>
+<program>
+print(fakt(3), end="")
+print(fakt(5), end="")
+print(fakt(4), end="")
+print(fakt(8), end="")
+print(fakt(9), end="")
+</program>
+<output>61202440320362880</output>
+</task>

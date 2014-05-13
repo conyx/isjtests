@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="fulltext">
+<question>
+Napište jaký je rozdíl mezi n-ticí a seznamem v Pythonu.
+</question>
+<answer percent="100">
+N-tice je immutable.
+</answer>
+<help>
+N-tice je immutable.
+</help>
+</task>

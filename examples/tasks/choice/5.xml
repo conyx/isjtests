@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="choice">
+<question>
+K čemu slouží pass příkaz v Pythonu?
+</question>
+<answer type="true">
+Prázdná operace.
+</answer>
+<answer type="false">
+Vyhození výjimky.
+</answer>
+<answer type="false">
+Ukončení programu s návratovou hodnotou 0.
+</answer>
+<answer type="false">
+Násilné ukončení cyklu.
+</answer>
+</task>

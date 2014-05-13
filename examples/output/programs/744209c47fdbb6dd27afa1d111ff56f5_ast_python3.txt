@@ -1,0 +1,47 @@
+###############################################################################
+GROUP 1
+===============================================================================
+SYNTAX ERROR
+===============================================================================
+[]
+###############################################################################
+GROUP 2
+===============================================================================
+<class '_ast.Module'> children: 1
+<class '_ast.Import'> children: 1
+<class '_ast.alias'> children: 2
+<class '_ast.Import'> children: 1
+<class '_ast.alias'> children: 2
+<class '_ast.Assign'> children: 2
+<class '_ast.Name'> children: 2
+<class '_ast.Store'> children: 0
+<class '_ast.Call'> children: 5
+<class '_ast.Attribute'> children: 3
+<class '_ast.Attribute'> children: 3
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Load'> children: 0
+<class '_ast.Load'> children: 0
+<class '_ast.Expr'> children: 1
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Call'> children: 5
+<class '_ast.Attribute'> children: 3
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Load'> children: 0
+<class '_ast.Str'> children: 1
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+===============================================================================
+['xbamba01']
+###############################################################################
+GROUP 3
+===============================================================================
+<class '_ast.Module'> children: 1
+===============================================================================
+['xhegrt00', 'xjanda17']

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="multichoice">
+<question>
+Které z následujících jazyků mají zabudovanou podporu (standardní knihovnu) regulárních výrazů?
+</question>
+<answer type="true">
+Python
+</answer>
+<answer type="true">
+Ruby
+</answer>
+<answer type="true">
+Java SE
+</answer>
+<answer type="false">
+C
+</answer>
+</task>

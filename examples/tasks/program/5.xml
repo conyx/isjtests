@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="program">
+<question>
+Napište program v jazyce Python3, Python2 nebo Ruby, který ze standardního vstupu, kterým je CSV soubor obsahující
+login;počet_bodů
+login;počet_bodů
+login;počet_bodů
+atd...
+vypíše na standardní výstup celkový počet bodů všech studentů a na nový řádek login studenta s největším počtem bodů.
+</question>
+<language>unknown</language>
+<program type="edit"/>
+<input>
+xhegrt00;54
+xbamba01;12
+xjanda17;25
+</input>
+<output>
+91
+xhegrt00
+</output>
+<help>
+Zamyslete se nad použitím metod readlines() a split().
+</help>
+</task>

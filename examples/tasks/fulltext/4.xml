@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="fulltext">
+<question>
+Srovnejte jazyky Ruby a Python.
+</question>
+<answer percent="100">
+Ruby je více objektový, Python má větší zásobu knihoven.
+</answer>
+</task>

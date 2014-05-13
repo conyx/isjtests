@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="program">
+<question>
+Doplňte tělo funkce divisible(sez) v Pythonu 2 tak, aby vrátil nový seznam čísel, která jsou dělitelná číslem 3.
+sez je seznam obsahující proměnné typu int
+</question>
+<language>python2</language>
+<program>
+def divisible(sez):
+</program>
+<program type="edit" indent="1"/>
+<program>
+for n in divisible([1,2,3,6,5,4,9,8,7,9]):
+    print n,
+</program>
+<output>3699</output>
+</task>

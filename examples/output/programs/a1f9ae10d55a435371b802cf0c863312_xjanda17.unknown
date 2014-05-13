@@ -1,0 +1,20 @@
+import sys
+
+student_max_points = "Nobody"
+max_points = -1
+sumpoints = 0
+
+for line in sys.stdin.readlines():
+    res = line.split(";")
+    if len(res) == 2:
+        s = res[0]
+        points = res[1]
+        points = int(points)
+        sumpoints += points
+        if points > max_points:
+            max_points = points
+            student_max_points = s
+
+print(sumpoints)
+print(student_max_points)
+

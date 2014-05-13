@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="choice">
+<question>
+Jaký je rozdíl mezi seznamem (list) a n-ticí (tuple) v Pythonu?
+</question>
+<answer type="true">
+Pro n-tici platí, že nelze měnit její velikost ani obsah.
+</answer>
+<answer type="false">
+Seznam není vestavěný typ.
+</answer>
+<answer type="false">
+N-tici nelze iterovat.
+</answer>
+<answer type="false">
+Na n-tici nelze aplikovat operátor *.
+</answer>
+</task>

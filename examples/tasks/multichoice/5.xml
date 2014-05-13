@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="multichoice">
+<question>
+Která z následujících tvrzení platí pro datový typ n-tice (tuple) v jazyce Python?
+</question>
+<answer type="true">
+Je takzvaným immutable typem.
+</answer>
+<answer type="false">
+Můžeme měnit jeho velikost.
+</answer>
+<answer type="false">
+Můžeme měnit jeho obsah.
+</answer>
+<answer type="false">
+Nepatří do vestavěných typů jazyka Python.
+</answer>
+</task>

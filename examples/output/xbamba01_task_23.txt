@@ -1,0 +1,48 @@
+===============================================================================
+QUESTION
+===============================================================================
+Co vypíše následující program v Pythonu 3 na standardní výstup?<pre>class Houbogen:
+	def __init__(self, n):
+		self.i = n + -5
+		self.j = 5 - n
+	def __iter__(self):
+		return self
+	def __next__(self):
+		self.i += 1
+		self.j -= 1
+		if self.i >= self.j:
+			raise StopIteration()
+		elif sum((self.i, self.j)) % 3 == 2:
+			self.i += 1
+			self.j -= 1
+			print('houbaraz:', self.j-self.i, end=', ')
+			return self.i - self.j
+		else:
+			print('houbadva:', self.j, end=', ')
+			return self.i - self.j
+n = 1
+for h in Houbogen(n):
+	print('les:', h, end=', ')</pre>
+===============================================================================
+CHOICES
+===============================================================================
+[1] False
+houbadva: 4, les: -7, houbaraz: 4, les: -4, houbadva: 3, les: -3, houbadva: 3, les: -2, houbaraz: -1, les: 1,
+[2] False
+houbadva: 4, les: -7, houbaraz: 5, les: -5, houbaraz: 3, les: -3, houbaraz: 1, les: -1,
+[3] False
+houbaraz: 6, les: -6, houbadva: 1, les: -5, houbaraz: 3, les: -3, houbadva: -2, les: -2, houbaraz: 0, les: 0,
+[4] False
+houbadva: 3, les: -6, houbadva: 2, les: -4, houbadva: 1, les: -2, houbadva: 0, les: 0,
+[5] True
+houbadva: 3, les: -6, houbadva: 2, les: -4, houbadva: 1, les: -2,
+[6] False
+houbadva: 2, les: -5, houbaraz: 2, les: -2,
+===============================================================================
+ANSWER
+===============================================================================
+
+===============================================================================
+POINTS
+===============================================================================
+0

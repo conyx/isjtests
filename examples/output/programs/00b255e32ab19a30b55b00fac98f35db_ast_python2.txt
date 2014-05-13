@@ -1,0 +1,54 @@
+###############################################################################
+GROUP 1
+===============================================================================
+SYNTAX ERROR
+===============================================================================
+['xbamba01']
+###############################################################################
+GROUP 2
+===============================================================================
+<class '_ast.Module'> children: 1
+<class '_ast.FunctionDef'> children: 4
+<class '_ast.arguments'> children: 4
+<class '_ast.Name'> children: 2
+<class '_ast.Param'> children: 0
+<class '_ast.Return'> children: 1
+<class '_ast.ListComp'> children: 2
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.comprehension'> children: 3
+<class '_ast.Name'> children: 2
+<class '_ast.Store'> children: 0
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Compare'> children: 3
+<class '_ast.BinOp'> children: 3
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Mod'> children: 0
+<class '_ast.Num'> children: 1
+<class '_ast.Eq'> children: 0
+<class '_ast.Num'> children: 1
+<class '_ast.For'> children: 4
+<class '_ast.Name'> children: 2
+<class '_ast.Store'> children: 0
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.List'> children: 2
+<class '_ast.Num'> children: 1
+<class '_ast.Num'> children: 1
+<class '_ast.Num'> children: 1
+<class '_ast.Num'> children: 1
+<class '_ast.Num'> children: 1
+<class '_ast.Num'> children: 1
+<class '_ast.Num'> children: 1
+<class '_ast.Num'> children: 1
+<class '_ast.Num'> children: 1
+<class '_ast.Num'> children: 1
+<class '_ast.Load'> children: 0
+<class '_ast.Print'> children: 3
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+===============================================================================
+['xhegrt00', 'xjanda17']

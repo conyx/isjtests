@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- Use module for web interface answering -->
+    <mode>web</mode>
+    <!-- verbose mode on/off -->
+    <verbose>on</verbose>
+    <!-- logging  on = enable  off = disable-->
+    <logging>on</logging>
+    <!-- Log file path (full or relative) -->
+    <logfile>C:\Users\XPS\proj\fit\4_let\IBP\src\examples\isjtests.log</logfile>
+    <!-- Paths of interpreters for evaluator usage -->
+    <evaluator_paths>
+        <!-- Path of python 2 executable file -->
+        <python2path>
+            C:\Python27\python.exe
+        </python2path>
+        <!-- Path of python 3 executable file -->
+        <python3path>
+            C:\Python32\python.exe
+        </python3path>
+        <!-- Path of ruby executable file -->
+        <rubypath>
+            C:\Ruby193\bin\ruby.exe
+        </rubypath>
+    </evaluator_paths>
+    <!-- Paths of interpreters for internal usage -->
+    <internal_paths>
+        <!-- Path of python 2 executable file -->
+        <python2path>
+            C:\Python27\python.exe
+        </python2path>
+        <!-- Path of python 3 executable file -->
+        <python3path>
+            C:\Python32\python.exe
+        </python3path>
+        <!-- Path of ruby executable file -->
+        <rubypath>
+            C:\Ruby193\bin\ruby.exe
+        </rubypath>
+    </internal_paths>
+    <!-- Folder path for general output files -->
+    <outputpath>
+        C:\Users\XPS\proj\fit\4_let\IBP\src\examples\output
+    </outputpath>
+    <!-- Students list -->
+    <students>
+        C:\Users\XPS\proj\fit\4_let\IBP\src\examples\students.csv
+    </students>
+    <tasks>
+        <!-- path with defined tasks, 2 points for task, 5 tasks per student -->
+        <taskspath points="2" number="5">
+            C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\choice
+        </taskspath>
+        <!-- path with defined tasks, 2 points for task, 5 tasks per student -->
+        <taskspath points="2" number="5">
+            C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\multichoice
+        </taskspath>
+        <!-- path with defined tasks, 2 points for task, 5 tasks per student -->
+        <taskspath points="2" number="5">
+            C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\program
+        </taskspath>
+        <!-- path with defined tasks, 2 points for task, 5 tasks per student -->
+        <taskspath points="2" number="5">
+            C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\fulltext
+        </taskspath>
+        <!-- path with defined tasks, 2 points for task, 8 tasks per student -->
+        <taskspath points="2" number="8">
+            C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\dynamic
+        </taskspath>
+    </tasks>
+    <webface>
+        <port>8866</port>
+        <commonpassword>someexample</commonpassword>
+        <!-- evaluator strictness: 0: ignore whitespace 1: strict -->
+        <eval_strict>0</eval_strict>
+        <!-- evaluator timeout for program tasks (in seconds) -->
+        <eval_timeout>10</eval_timeout>
+        <!-- anonymous mode   on = enable  off = disable-->
+        <anonymous>off</anonymous>
+        <!-- self learning mode   on = enable  off = disable-->
+        <self_learning>on</self_learning>
+    </webface>
+</config>

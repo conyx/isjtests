@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- Use this file for default settings -->
+    <!-- Default values:
+    mode:         web
+    verbose:      on
+    logging:      off
+    logfile:      isjtests.log
+    evaluator_paths
+        python2path:  python
+        python3path:  python3
+        rubypath:     ruby
+    internal_paths
+        python2path:  python
+        python3path:  python3
+        rubypath:     ruby
+    outputpath:   output
+    students:     students.csv
+    taskspath:    tasks (1 point, 10 tasks per student)
+    
+    webface
+        port:           8866
+        commonpassword: password
+        eval_strict:    0
+        eval_timeout:   10
+        anonymous:      off
+        self_learning:  off
+    !-->
+</config>

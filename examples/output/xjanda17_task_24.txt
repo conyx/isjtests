@@ -1,0 +1,47 @@
+===============================================================================
+QUESTION
+===============================================================================
+Co vypíše následující program v Pythonu 3 na standardní výstup?<pre>class Houbogen:
+	def __init__(self, n):
+		self.i = n + -3
+		self.j = 3 - n
+	def __iter__(self):
+		return self
+	def __next__(self):
+		self.i += 1
+		if self.i > self.j:
+			raise StopIteration()
+		elif sum((self.i, self.j)) % 3 == 1:
+			self.j -= 1
+			print('houbaraz:', self.j-self.i, end=', ')
+			return self.j - self.i
+		else:
+			self.i += 1
+			print('houbadva:', self.j, end=', ')
+			return self.i - self.j
+n = 0
+for h in Houbogen(n):
+	print('les:', h, end=', ')</pre>
+===============================================================================
+CHOICES
+===============================================================================
+[1] False
+houbaraz: 3, les: 3, houbadva: 2, les: -1, houbaraz: -2, les: -2,
+[2] False
+houbadva: -5, les: -5, houbadva: -3, les: -3, houbaraz: 2, les: 0,
+[3] True
+houbaraz: 4, les: 4, houbaraz: 2, les: 2, houbaraz: 0, les: 0,
+[4] False
+houbadva: 3, les: -5, houbadva: 3, les: -3, houbaraz: 0, les: 0,
+[5] False
+houbadva: -5, les: -5, houbadva: -3, les: -3, houbaraz: 0, les: 0,
+[6] False
+houbadva: -2, les: -5, houbadva: 0, les: -3, houbaraz: 2, les: 0,
+===============================================================================
+ANSWER
+===============================================================================
+1
+===============================================================================
+POINTS
+===============================================================================
+0

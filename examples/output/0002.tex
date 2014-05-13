@@ -1,0 +1,398 @@
+\documentclass[addpoints,12pt]{exam}
+\usepackage[left=1cm,top=1cm,right=1cm,bottom=2cm,nohead,nofoot]{geometry}
+\usepackage[utf8]{inputenc} 
+\usepackage[czech]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{stmaryrd}
+\begin{document}
+\setlength{\parindent}{0in}
+\pagestyle{empty}
+\textbf{ID: 0002}
+\\
+\textbf{2. Opravný termín, semestrální test ISJ, 8.6.2012, Login:}
+\\
+\hrulefill
+\begin{questions}
+
+\question[2]
+K čemu slouží příkaz puts v jazyk Ruby?
+\nopagebreak
+\begin{choices}
+\choice
+Tisk řetězce na výstup.
+\choice
+Přidání prvku do pole.
+\choice
+Vyjmutí prvního prvku z pole.
+\choice
+Zvýšení velikosti pole o 1.
+\end{choices}
+\question[2]
+Jaký je rozdíl mezi seznamem (list) a n-ticí (tuple) v Pythonu?
+\nopagebreak
+\begin{choices}
+\choice
+Na n-tici nelze aplikovat operátor *.
+\choice
+Pro n-tici platí, že nelze měnit její velikost ani obsah.
+\choice
+Seznam není vestavěný typ.
+\choice
+N-tici nelze iterovat.
+\end{choices}
+\question[2]
+K čemu slouží pass příkaz v Pythonu?
+\nopagebreak
+\begin{choices}
+\choice
+Vyhození výjimky.
+\choice
+Násilné ukončení cyklu.
+\choice
+Prázdná operace.
+\choice
+Ukončení programu s návratovou hodnotou 0.
+\end{choices}
+\question[2]
+Který z těchto jazyků je nejvíce objektový?
+\nopagebreak
+\begin{choices}
+\choice
+C
+\choice
+Python 3
+\choice
+Ruby
+\choice
+Python 2
+\end{choices}
+\question[2]
+Který z následujících jazyků nemá vestavěnou podporu pro regulární výrazy?
+\nopagebreak
+\begin{choices}
+\choice
+Ruby
+\choice
+Python 2
+\choice
+Python 3
+\choice
+C
+\end{choices}
+\question[2]
+Který z následujících příkazů neexistuje v jazyce Python?
+\nopagebreak
+\begin{choices}
+\choice
+cut
+\choice
+raise
+\choice
+del
+\choice
+puts
+\end{choices}
+\question[2]
+Které řetězce odpovídají následujícímu regulárnímu výrazu [0-9a-fA-F]\{2\}?
+\nopagebreak
+\begin{choices}
+\choice
+a9
+\choice
+16.0
+\choice
+0L
+\choice
+147
+\end{choices}
+\question[2]
+Která z následujících tvrzení platí pro datový typ n-tice (tuple) v jazyce Python?
+\nopagebreak
+\begin{choices}
+\choice
+Je takzvaným immutable typem.
+\choice
+Nepatří do vestavěných typů jazyka Python.
+\choice
+Můžeme měnit jeho velikost.
+\choice
+Můžeme měnit jeho obsah.
+\end{choices}
+\question[2]
+Která z následujících tvrzení platí pro datový typ seznam (list) v Pythonu?
+\nopagebreak
+\begin{choices}
+\choice
+Můžeme měnit jeho obsah.
+\choice
+Je takzvaným immutable typem.
+\choice
+Nepatří do vestavěných typů jazyka Python.
+\choice
+Můžeme měnit jeho velikost.
+\end{choices}
+\question[2]
+Které z následujících jazyků mají zabudovanou podporu (standardní knihovnu) regulárních výrazů?
+\nopagebreak
+\begin{choices}
+\choice
+C
+\choice
+Ruby
+\choice
+Java SE
+\choice
+Python
+\end{choices}
+\question[2]
+Napište jediným RE přidání oddělení řádu mocnin tečkou (1214248 -\textgreater{} 1.214.248).
+\nopagebreak
+\makeemptybox{10cm}
+\question[2]
+Napište jaký je rozdíl mezi n-ticí a seznamem v Pythonu.
+\nopagebreak
+\makeemptybox{10cm}
+\question[2]
+Srovnejte jazyky Ruby a Python.
+\nopagebreak
+\makeemptybox{10cm}
+\question[2]
+Napište vše co víte o iterátorech v Pythonu.
+\nopagebreak
+\makeemptybox{10cm}
+\question[2]
+Napište regulární výraz pro nalezení data ve formátu YYYY-MM-DD.
+\nopagebreak
+\makeemptybox{10cm}
+\question[2]
+Napište program v jazyce Python3, Python2 nebo Ruby, který ze standardního vstupu, kterým je CSV soubor obsahující\\
+login;počet\_{}bodů\\
+login;počet\_{}bodů\\
+login;počet\_{}bodů\\
+atd...\\
+vypíše na standardní výstup celkový počet bodů všech studentů a na nový řádek login studenta s největším počtem bodů.
+\nopagebreak
+\makeemptybox{10cm}
+\question[2]
+Napište funkci myfilter(array) v jazyce Ruby tak, aby ze vstupního seznamu čísel vytiskla na standardní výstup pouze lichá čísla a čísla dělitelná 10.
+\nopagebreak
+\makeemptybox{10cm}
+\question[2]
+Napište program v Pythonu 3, který vypíše na standardní výstup počet nepřekrývajících se řetězců typu YYYY-MM-DD na standardním vstupu.
+\nopagebreak
+\makeemptybox{10cm}
+\question[2]
+Doplňte tělo funkce fakt(num) v Pythonu 3, taky aby vracela faktoriál celého čísla.
+\nopagebreak
+\makeemptybox{10cm}
+\question[2]
+Doplňte tělo funkce divisible(sez) v Pythonu 2 tak, aby vrátil nový seznam čísel, která jsou dělitelná číslem 3.\\
+sez je seznam obsahující proměnné typu int
+\nopagebreak
+\makeemptybox{10cm}
+\question[2]
+Co vypíše následující program v Ruby na standardní výstup?\\
+\texttt{x = 1\\
+z = 2\\
+n = 2\\
+a = [1,2,3,4]\\
+(n..7).each\{\textbar{}y\textbar{} z += x += y\}\\
+x.times \{\textbar{}i\textbar{} z -= 1\}\\
+n.upto(a.length) \{\textbar{}y\textbar{} z -= y\}\\
+n.upto(a.first+a.first) \{\textbar{}y\textbar{} x -= y\}\\
+print x.abs - z.abs}
+\nopagebreak
+\begin{choices}
+\choice
+-8
+\choice
+-22
+\choice
+-13
+\choice
+-14
+\choice
+-17
+\choice
+-18
+\end{choices}
+\question[2]
+Regulárnímu výyrazu: \^{}\textbackslash\{\}W[\^{}4][\^{}5][3-5](7\textbar{}5)\textbackslash\{\}S\textbackslash\{\}d\${} odpovídá řetězec:
+\nopagebreak
+\begin{choices}
+\choice
+\${}1171 6
+\choice
+\${}5537a1
+\choice
+\${}2397 6
+\choice
+\${}1675 4
+\choice
+\${}3935 6
+\choice
+\${}4735A9
+\choice
+\${}985536
+\choice
+\${}6637 8
+\end{choices}
+\question[2]
+Co vypíše následující program v Pythonu 2 na standardní výstup?\\
+\texttt{class Houbogen:\\
+\hspace*{0.6cm}def \_{}\_{}init\_{}\_{}(self, n):\\
+\hspace*{0.6cm}\hspace*{0.6cm}self.i = n + -3\\
+\hspace*{0.6cm}\hspace*{0.6cm}self.j = 5 - n\\
+\hspace*{0.6cm}def \_{}\_{}iter\_{}\_{}(self):\\
+\hspace*{0.6cm}\hspace*{0.6cm}return self\\
+\hspace*{0.6cm}def next(self):\\
+\hspace*{0.6cm}\hspace*{0.6cm}self.i += 1\\
+\hspace*{0.6cm}\hspace*{0.6cm}if self.i \textgreater{} self.j:\\
+\hspace*{0.6cm}\hspace*{0.6cm}\hspace*{0.6cm}raise StopIteration()\\
+\hspace*{0.6cm}\hspace*{0.6cm}elif sum((self.i, self.j)) \%{} 3 == 0:\\
+\hspace*{0.6cm}\hspace*{0.6cm}\hspace*{0.6cm}self.i += 1\\
+\hspace*{0.6cm}\hspace*{0.6cm}\hspace*{0.6cm}self.j -= 1\\
+\hspace*{0.6cm}\hspace*{0.6cm}\hspace*{0.6cm}return self.i - self.j\\
+\hspace*{0.6cm}\hspace*{0.6cm}else:\\
+\hspace*{0.6cm}\hspace*{0.6cm}\hspace*{0.6cm}return self.i - self.j\\
+n = 1\\
+print min(Houbogen(n)),}
+\nopagebreak
+\begin{choices}
+\choice
+-3
+\choice
+3
+\choice
+4
+\choice
+0
+\choice
+-1
+\choice
+1
+\end{choices}
+\question[2]
+Napište program v jazyce Python 2 který sečte libovolně velké matice a vytiskne výsledek na standardní výstup. Prvky matice jsou odděleny mezerou. Matice na vstupu jsou od sebe odděleny prázdným řádkem a mají stejnou velikost. Příklad vstupu:\\
+\texttt{1 1\\
+2 2\\
+\\
+3 3\\
+4 4}\\
+Odpovídající výstup:\\
+\texttt{4 4\\
+6 6}\\
+
+\nopagebreak
+\makeemptybox{10cm}
+\question[2]
+Jak dlouhá je odvěsna pravoúhlého trojúhelníka pokud je druhá odvěsna dlouhá 273 cm a přepona měří 327 cm?
+\nopagebreak
+\begin{choices}
+\choice
+182 cm
+\choice
+179 cm
+\choice
+178 cm
+\choice
+180 cm
+\choice
+181 cm
+\choice
+177 cm
+\end{choices}
+\question[2]
+Regulárnímu výyrazu: \^{}((27)\{3\}((64)\{3\}(84)\{2\})\{3\})\{1\}\textbackslash\{\}5\${} odpovídá řetězec:
+\nopagebreak
+\begin{choices}
+\choice
+2764648484646484846464848484
+\choice
+2764648484646484846464848464
+\choice
+27272764648484646484846464848464
+\choice
+27272764646484846464648484646464848484
+\choice
+27272764648484646484846464848484
+\choice
+272727646464848484
+\end{choices}
+\question[2]
+Co vypíše následující program v Pythonu 3 na standardní výstup?\\
+\texttt{class Houbogen:\\
+\hspace*{0.6cm}def \_{}\_{}init\_{}\_{}(self, n):\\
+\hspace*{0.6cm}\hspace*{0.6cm}self.i = n + -5\\
+\hspace*{0.6cm}\hspace*{0.6cm}self.j = 3 - n\\
+\hspace*{0.6cm}def \_{}\_{}iter\_{}\_{}(self):\\
+\hspace*{0.6cm}\hspace*{0.6cm}return self\\
+\hspace*{0.6cm}def \_{}\_{}next\_{}\_{}(self):\\
+\hspace*{0.6cm}\hspace*{0.6cm}self.i += 1\\
+\hspace*{0.6cm}\hspace*{0.6cm}if self.i \textgreater{} self.j:\\
+\hspace*{0.6cm}\hspace*{0.6cm}\hspace*{0.6cm}raise StopIteration()\\
+\hspace*{0.6cm}\hspace*{0.6cm}elif sum((self.i, self.j)) \%{} 2 == 1:\\
+\hspace*{0.6cm}\hspace*{0.6cm}\hspace*{0.6cm}self.i += 1\\
+\hspace*{0.6cm}\hspace*{0.6cm}\hspace*{0.6cm}self.j -= 1\\
+\hspace*{0.6cm}\hspace*{0.6cm}\hspace*{0.6cm}print('houbaraz:', self.i, end=', ')\\
+\hspace*{0.6cm}\hspace*{0.6cm}\hspace*{0.6cm}return self.i - self.j\\
+\hspace*{0.6cm}\hspace*{0.6cm}else:\\
+\hspace*{0.6cm}\hspace*{0.6cm}\hspace*{0.6cm}print('houbadva:', self.i-self.j, end=', ')\\
+\hspace*{0.6cm}\hspace*{0.6cm}\hspace*{0.6cm}return self.i - self.j\\
+n = 1\\
+for h in Houbogen(n):\\
+\hspace*{0.6cm}print('les:', h, end=', ')}
+\nopagebreak
+\begin{choices}
+\choice
+houbaraz: -4, les: -5, houbadva: 4, les: -4, houbaraz: -3, les: -1,
+\choice
+houbaraz: -3, les: -5, houbadva: 4, les: -4, houbaraz: 0, les: -1,
+\choice
+houbaraz: -2, les: -3, houbadva: 2, les: -2, houbaraz: 1, les: 1,
+\choice
+houbaraz: -3, les: -5, houbadva: 4, les: 4, houbaraz: 0, les: -1,
+\choice
+houbaraz: -2, les: -3, houbadva: 2, les: 2, houbaraz: 1, les: 1,
+\choice
+houbaraz: -2, les: -3, houbadva: -2, les: -2, houbaraz: 1, les: 1,
+\end{choices}
+\question[2]
+Co vypíše následující program v Pythonu 3 na standardní výstup (neuvažujte chybový výstup)?\\
+\texttt{def f(n):\\
+\hspace*{0.6cm}n = 2\\
+\hspace*{0.6cm}print('fraz:', n, end=', ')\\
+\hspace*{0.6cm}n += 2\\
+\hspace*{0.6cm}while n \textless{} 6:\\
+\hspace*{0.6cm}\hspace*{0.6cm}yield n\\
+\hspace*{0.6cm}\hspace*{0.6cm}n += 1\\
+\hspace*{0.6cm}\hspace*{0.6cm}print('fdva:', n, end=', ')\\
+\hspace*{0.6cm}print('ftri:', n, end=', ')\\
+n = 2\\
+x = f(n)\\
+n += 2\\
+x = f(n)\\
+print('mraz:', n, end=', ')\\
+next(x)\\
+print('mdva:', n, end=', ')\\
+next(x)\\
+print('mtri:', next(x), end=', ')}
+\nopagebreak
+\begin{choices}
+\choice
+mraz: 0, fraz: 2, mdva: 0, fdva: 3, fdva: 4, mtri: 4,
+\choice
+mraz: 0, fraz: 2, mdva: 0, fdva: 5, fdva: 6, ftri: 6,
+\choice
+mraz: 2, fraz: 2, mdva: 2, fdva: 5, fdva: 6, ftri: 6,
+\choice
+mraz: 0, mdva: 0, fraz: 2, fdva: 3, mtri: 3,
+\choice
+mraz: 4, fraz: 2, mdva: 4, fdva: 5, fdva: 6, ftri: 6,
+\choice
+mraz: 0, fraz: 2, mdva: 0, fdva: 4, fdva: 6, mtri: 6,
+\end{choices}
+\end{questions}
+\end{document}
+

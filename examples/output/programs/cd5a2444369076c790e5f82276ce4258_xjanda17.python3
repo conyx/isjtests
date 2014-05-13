@@ -1,0 +1,15 @@
+
+def fakt(num):
+
+	if num > 1:
+	    return fakt(num-1) * num
+	else:
+	    return 1
+
+
+print(fakt(3), end="")
+print(fakt(5), end="")
+print(fakt(4), end="")
+print(fakt(8), end="")
+print(fakt(9), end="")
+

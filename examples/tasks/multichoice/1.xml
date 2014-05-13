@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="multichoice">
+<question>
+Který z následujících příkazů neexistuje v jazyce Python?
+</question>
+<answer type="true">
+puts
+</answer>
+<answer type="true">
+cut
+</answer>
+<answer type="false">
+del
+</answer>
+<answer type="false">
+raise
+</answer>
+</task>

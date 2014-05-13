@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="choice">
+<question>
+K čemu slouží příkaz puts v jazyk Ruby?
+</question>
+<answer type="true">
+Tisk řetězce na výstup.
+</answer>
+<answer type="false">
+Zvýšení velikosti pole o 1.
+</answer>
+<answer type="false">
+Vyjmutí prvního prvku z pole.
+</answer>
+<answer type="false">
+Přidání prvku do pole.
+</answer>
+</task>

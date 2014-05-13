@@ -1,0 +1,41 @@
+===============================================================================
+QUESTION
+===============================================================================
+Co vypíše následující program v Pythonu 3 na standardní výstup (neuvažujte chybový výstup)?<pre>def f(n):
+	print('fraz:', n, end=', ')
+	n += 2
+	while n < 7:
+		yield n
+		n += 1
+		print('fdva:', n, end=', ')
+	print('ftri:', n, end=', ')
+n = 2
+x = f(n)
+x = f(n)
+print('mraz:', next(x), end=', ')
+print('mdva:', next(x), end=', ')
+next(x)
+print('mtri:', next(x), end=', ')</pre>
+===============================================================================
+CHOICES
+===============================================================================
+[1] True
+fraz: 2, mraz: 4, fdva: 5, mdva: 5, fdva: 6, fdva: 7, ftri: 7,
+[2] False
+fraz: 2, mraz: 4, fdva: 6, mdva: 6, fdva: 8, ftri: 8,
+[3] False
+fraz: 2, mraz: 4, fdva: 6, fdva: 8, ftri: 8,
+[4] False
+fraz: 2, mraz: 2, mdva: 2, fdva: 4, fdva: 6, mtri: 6,
+[5] False
+fraz: 2, mraz: 2, fdva: 4, fdva: 6, mdva: 6, fdva: 8, ftri: 8,
+[6] False
+fraz: 2, mraz: 2, fdva: 4, mdva: 4, fdva: 6, fdva: 8, ftri: 8,
+===============================================================================
+ANSWER
+===============================================================================
+
+===============================================================================
+POINTS
+===============================================================================
+0

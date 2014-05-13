@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="program">
+<question>
+Napište program v Pythonu 3, který vypíše na standardní výstup počet nepřekrývajících se řetězců typu YYYY-MM-DD na standardním vstupu.
+</question>
+<language>python3</language>
+<program type="edit"/>
+<input>
+2009-06-30#2011-05-12#2005-08-130254.8004-1-2#.2005-02-3002-15-12
+2009-06-30#2011-05-12#2005-08-130254.8004-1-2#.2005-02-3002-15-12
+2009-06-30#2011-05-12#2005-08-130254.8004-1-2#.2005-02-3002-14-12
+2009-06-30#2011-05-12#2005-08-130254.8004-1-2#.2005-02-3002-15-12
+</input>
+<output>16</output>
+</task>

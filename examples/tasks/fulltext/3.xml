@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="fulltext">
+<question>
+Napište regulární výraz pro nalezení data ve formátu YYYY-MM-DD.
+</question>
+<answer percent="100">
+\d{4}-\d{2}-\d{2}
+</answer>
+<answer percent="80">
+\d\d\d\d-\d\d-\d\d
+</answer>
+<answer percent="60">
+[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]
+</answer>
+</task>

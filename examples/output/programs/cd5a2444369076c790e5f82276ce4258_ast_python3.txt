@@ -1,0 +1,86 @@
+###############################################################################
+GROUP 1
+===============================================================================
+SYNTAX ERROR
+===============================================================================
+['xbamba01', 'xhegrt00']
+###############################################################################
+GROUP 2
+===============================================================================
+<class '_ast.Module'> children: 1
+<class '_ast.FunctionDef'> children: 5
+<class '_ast.arguments'> children: 8
+<class '_ast.arg'> children: 2
+<class '_ast.If'> children: 3
+<class '_ast.Compare'> children: 3
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Gt'> children: 0
+<class '_ast.Num'> children: 1
+<class '_ast.Return'> children: 1
+<class '_ast.BinOp'> children: 3
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.BinOp'> children: 3
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Sub'> children: 0
+<class '_ast.Num'> children: 1
+<class '_ast.Mult'> children: 0
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Return'> children: 1
+<class '_ast.Num'> children: 1
+<class '_ast.Expr'> children: 1
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Num'> children: 1
+<class '_ast.keyword'> children: 2
+<class '_ast.Str'> children: 1
+<class '_ast.Expr'> children: 1
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Num'> children: 1
+<class '_ast.keyword'> children: 2
+<class '_ast.Str'> children: 1
+<class '_ast.Expr'> children: 1
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Num'> children: 1
+<class '_ast.keyword'> children: 2
+<class '_ast.Str'> children: 1
+<class '_ast.Expr'> children: 1
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Num'> children: 1
+<class '_ast.keyword'> children: 2
+<class '_ast.Str'> children: 1
+<class '_ast.Expr'> children: 1
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Call'> children: 5
+<class '_ast.Name'> children: 2
+<class '_ast.Load'> children: 0
+<class '_ast.Num'> children: 1
+<class '_ast.keyword'> children: 2
+<class '_ast.Str'> children: 1
+===============================================================================
+['xjanda17']

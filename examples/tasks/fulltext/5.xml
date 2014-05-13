@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task type="fulltext">
+<question>
+Napište jediným RE přidání oddělení řádu mocnin tečkou (1214248 -> 1.214.248).
+</question>
+<answer percent="100">
+s{
+(\d{1,3})
+  (?=
+    (?:\d\d\d)+
+    (?!\d)
+  )
+}{\1.}gx
+</answer>
+</task>

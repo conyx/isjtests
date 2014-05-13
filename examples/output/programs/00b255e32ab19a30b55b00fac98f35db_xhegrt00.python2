@@ -1,0 +1,9 @@
+
+def divisible(sez):
+
+	return [m for m in sez if m % 3 == 0]
+
+
+for n in divisible([1,2,3,6,5,4,9,8,7,9]):
+    print n,
+

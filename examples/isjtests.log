@@ -1,0 +1,46 @@
+2012-06-10 17:46:40: isjtests started
+2012-06-10 17:46:40: students list successfully loaded
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\choice\1.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\choice\2.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\choice\3.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\choice\4.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\choice\5.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\multichoice\1.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\multichoice\2.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\multichoice\3.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\multichoice\4.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\multichoice\5.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\program\1.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\program\2.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\program\3.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\program\4.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\program\5.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\fulltext\1.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\fulltext\2.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\fulltext\3.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\fulltext\4.xml
+2012-06-10 17:46:40: parsing XML task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\fulltext\5.xml
+2012-06-10 17:46:40: parsing DYNAMIC task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\dynamic\generator.py
+2012-06-10 17:46:40: parsing DYNAMIC task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\dynamic\iterator1.py
+2012-06-10 17:46:40: parsing DYNAMIC task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\dynamic\iterator2.py
+2012-06-10 17:46:40: parsing DYNAMIC task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\dynamic\matrix_addition.py
+2012-06-10 17:46:40: parsing DYNAMIC task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\dynamic\regexp1.py
+2012-06-10 17:46:40: parsing DYNAMIC task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\dynamic\regexp2.py
+2012-06-10 17:46:40: parsing DYNAMIC task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\dynamic\right_triangle.py
+2012-06-10 17:46:41: parsing DYNAMIC task C:\Users\XPS\proj\fit\4_let\IBP\src\examples\tasks\dynamic\ruby.py
+2012-06-10 17:46:41: assigning tasks for student: xbamba01
+2012-06-10 17:46:46: assigning tasks for student: xjanda17
+2012-06-10 17:46:50: assigning tasks for student: xhegrt00
+2012-06-10 17:46:56: starting web service on port 8866
+2012-06-10 17:46:56: 0 students answered, 0 students answering, 3 students not logged in
+2012-06-10 17:47:44: request 127.0.0.1 GET / HTTP/1.1
+2012-06-10 17:47:44: request 127.0.0.1 GET /favicon.ico HTTP/1.1
+2012-06-10 17:47:49: request 127.0.0.1 POST /test HTTP/1.1
+2012-06-10 17:47:49: 0 students answered, 1 students answering, 2 students not logged in
+2012-06-10 17:47:50: request 127.0.0.1 GET /favicon.ico HTTP/1.1
+2012-06-10 17:48:56: evaluating of xbamba01's answers started
+2012-06-10 17:48:57: evaluating of xbamba01's answers ended
+2012-06-10 17:48:57: student xbamba01 hit 0 from 56 max points
+2012-06-10 17:48:57: request 127.0.0.1 POST /testresults HTTP/1.1
+2012-06-10 17:48:57: 1 students answered, 0 students answering, 2 students not logged in
+2012-06-10 17:48:57: request 127.0.0.1 GET /favicon.ico HTTP/1.1
