@@ -12,13 +12,11 @@ Options:
 -c, --config-file           path to XML configuration file
 -------------------------------------------------------------------------------
 Description:
-ISJ Tests is configurable tool for generating and evaluating individual tests
-for Scripting Languages course (ISJ) on Faculty of Information Technology,
-Brno University of Technology.
+ISJ Tests is the configurable tool for a generation and an evaluation of
+individual student's tests concerning Scripting Languages course (ISJ) on
+Faculty of Information Technology, Brno University of Technology.
 -------------------------------------------------------------------------------
 Examples:
 Examples of configuration file can be found in "examples" folder. Tasks and
 system output examples can be found in the same folder.
 -------------------------------------------------------------------------------
-Author:
-Tomas Bambas xbamba01@stud.fit.vutbr.cz
